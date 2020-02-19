@@ -65,6 +65,16 @@ public class Part1 {
             System.out.println("");
         }     
         
+        dna = "AATGCTAACTAGCTGACTAAT";
+        gene = findGene(dna);
+        System.out.println("quiz: " + dna);
+        if (gene.length() > 0) {
+            System.out.println(gene);
+        }
+        else{
+            System.out.println("");
+        }
+        
         dna = "xxxyyyATGzzzxxTGAxyyyzzz";
         gene = findGene(dna); // none
         System.out.println("second trial: " +dna);
